@@ -8,8 +8,11 @@ private:
     string name;
     int id;
 public:
-    string getName;
-    int getId;
+    void setName(string s);
+    void setId(int x);
+
+    string getName();
+    int getId();
     void display();
 
 

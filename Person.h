@@ -1,20 +1,17 @@
-#ifndef PERSON_H
-#define PERSON_H
-
-#include <string>
+#ifndef PERSON_H_INCLUDED
+#define PERSON_H_INCLUDED
 using namespace std;
-
-//#write Person class here
-
-
-
-
-
-
-
-
+#include <iostream>
+#include <string>
+class Person{
+private:
+    string name;
+    int id;
+public:
+    void display();
 
 
+};
 
 
-#endif
+#endif // PERSON_H_INCLUDED

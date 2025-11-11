@@ -1,19 +1,18 @@
-#ifndef INSTRUCTOR_H
-#define INSTRUCTOR_H
-
-#include "Person.h"
+#ifndef INSTRUCTOR__H_INCLUDED
+#define INSTRUCTOR__H_INCLUDED
 using namespace std;
-//#write Instructor class here
+#include <iostream>
+#include <string>
+#include "Person.h"
+
+class Instructor: public Person {
+private:
+    string department;
+    int experienceYears;
 
 
 
+};
 
 
-
-
-
-
-
-
-
-#endif
+#endif // INSTRUCTOR__H_INCLUDED

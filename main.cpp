@@ -50,7 +50,11 @@ int student::getYL(){
 
 ///}
 
+void Course::addStudent(){
 
+
+
+}
 
 
 

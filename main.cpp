@@ -44,7 +44,7 @@ int student::getYL(){
     return yearLevel;
 }
 
-///void student::display() : Person {
+///void student::display() : public Person display()  {
 ///    cout<<"Year Level: "<< getYL()<<endl;
  ///   cout << "Major: "<< getMajor()<< endl;
 

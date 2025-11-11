@@ -1,18 +1,24 @@
-#ifndef STUDENT__H_INCLUDED
-#define STUDENT__H_INCLUDED
+#ifndef STUDENT_H_INCLUDED
+#define STUDENT_H_INCLUDED
 using namespace std;
 #include <iostream>
 #include <string>
 #include "Person.h"
 
-class Student: public Person {
+class student: public Person {
 
 private:
-    int year;
+    int yearLevel;
     string major;
+
+public:
+    void setYear(int x);
+    void setMajor(string m);
+    string getMajor();
+    int getYL();
 
 
 };
 
 
-#endif // STUDENT__H_INCLUDED
+#endif // STUDENT_H_INCLUDED

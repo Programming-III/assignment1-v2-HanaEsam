@@ -5,11 +5,12 @@ using namespace std;
 #include <string>
 #include "Person.h"
 
-class Instructor: public Person {
+class Instructor : public Person {
 private:
     string department;
     int experienceYears;
-
+public:
+    void display();
 
 
 };

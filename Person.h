@@ -8,6 +8,8 @@ private:
     string name;
     int id;
 public:
+    string getName;
+    int getId;
     void display();
 
 

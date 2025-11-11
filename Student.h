@@ -1,21 +1,18 @@
-#ifndef STUDENT_H
-#define STUDENT_H
-
-#include "Person.h"
+#ifndef STUDENT__H_INCLUDED
+#define STUDENT__H_INCLUDED
+using namespace std;
+#include <iostream>
 #include <string>
-#using namespace std;
-//#write student class here
+#include "Person.h"
+
+class Student: public Person {
+
+private:
+    int year;
+    string major;
 
 
+};
 
 
-
-
-
-
-
-
-
-
-
-#endif
+#endif // STUDENT__H_INCLUDED

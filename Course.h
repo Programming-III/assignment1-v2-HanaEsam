@@ -1,22 +1,24 @@
-#ifndef COURSE_H
-#define COURSE_H
-
-#include <string>
-#include "Student.h"
+#ifndef COURSE_H_INCLUDED
+#define COURSE_H_INCLUDED
 using namespace std;
-//#write your code here
+#include <iostream>
+#include <string>
+#include "student.h"
 
 
+class Course{
+private:
+    string courseCode;
+    string courseName;
+    int maxStudents;
+    student* students;
+    int currentStudents;
+public:
+     void addStudent(const student& s);
+    void displayCourseInfo();
 
 
+};
 
 
-
-
-
-
-
-
-
-
-#endif
+#endif // COURSE_H_INCLUDED
